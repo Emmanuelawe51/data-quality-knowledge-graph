@@ -1,0 +1,779 @@
+<https://emmanuelawe51.github.io/dqkg/metric/storage-cost>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Estimated financial cost to business of storing data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Storage cost"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/replacement-cost>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Estimated financial cost to create, replace or reproduce this data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Replacement cost"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/purpose>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A measure of the significance of the type of usage."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Purpose"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/market-price>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Price that a user will accept for data, sometimes in return for a specific service."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Market price"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/frequency>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An access time series measure based on how often data is read and written to."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Frequency"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/knn-shapley-value>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "For K-nearest neighbours classifier algorithms Jia et al. provide an efficient Monte Carlo method to calculate the Shapley value of the KNN utility of each data point."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "KNN Shapley value"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metricType/quantitative>
+        a       <https://emmanuelawe51.github.io/dqkg/MetricType> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Quantitative"@en .
+
+<https://emmanuelawe51.github.io/dqkg/metric/personal-data-differential-price>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A measure that calculates the relative utility of a dataset by comparing the differences between original data of a personal nature, and an obfuscated version of the same data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Personal data differential price"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/recency>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A specialised time-based metric to capture when data was last used, defined by."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Recency"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/user-count>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Called the number of visits by Qiu et al., the number of unique users that access the data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "User count"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/provider-assessment>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An assessment of the value of a data item by the provider of that data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Provider assessment"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/event-information-measure>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "By classifying the contents of an image or sensor reading to a set of events with known probabilities, can calculate the information measure of the image containing a specific event. Alternatively specify a Fisher Information Matrix (FIM) based metric."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Event information measure"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/fidelity>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Usefulness of sample data for a given inferential task."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Fidelity"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/field-value>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The financial amount of a transaction recorded in a field of a data record may be used as a weight for the value of that record. Typically used with count of records."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Field value"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/compliance-cost>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Estimated financial cost to business of not keeping data for compliance/regulation purposes."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Compliance cost"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/safety-distance>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "For vehicular sensors a measure of the distance where sensor readings become increasingly important."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Safety distance"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/image-quality>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An estimate of the quality of an image based on camera type (smartphone type), brightness, contrast, resolution, noise, and exposition."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Image quality"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/lexical-semantic-uniqueness>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A measure of the fraction of most unique words in a file compared to the contents of the whole collection."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Lexical semantic uniqueness"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/formula>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Mathematical expression describing how the metric is computed."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://www.w3.org/ns/dqv#Metric> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "formula"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/camera-resolution>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "For visual sensors a measure of the potential accuracy of sensor readings from a specific source."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Camera resolution"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/ip-value>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "For intellectual property data assets whose value is directly proportional to its financial value (e.g. licences or patents)."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "IP value"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/mutual-information>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A qualification of the inferential gain by increasing the size or features of data when comparing two datasets."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Mutual information"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metricType>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Indicates whether a metric is quantitative or qualitative."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://www.w3.org/ns/dqv#Metric> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "metric type"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://emmanuelawe51.github.io/dqkg/MetricType> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/data-information-entropy>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A measure of the uniqueness of data in the dataset."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Data information entropy"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/user-priority>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Priority given to a data item by a specific user."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "User priority"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/potential-user-count>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An estimate of the number of similar users in the system compared to the ones that have accessed the data, that are hence likely to also access the data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Potential user count"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metricType/qualitative>
+        a       <https://emmanuelawe51.github.io/dqkg/MetricType> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Qualitative"@en .
+
+<https://emmanuelawe51.github.io/dqkg/metric/maintenance-cost>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Estimated financial cost to business of maintaining, adapting or curating data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Maintenance cost"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/usage-over-time>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A quantification of value based on the usage of the data over time."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Usage over time"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/relevancy>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The number of business processes that use, or could benefit from this data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Relevancy"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/number-of-accesses>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A measure of the degree of usage. Moody et al. suggest this metric."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Number of accesses"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/user-assessment>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An assessment of the value of a data item by the user of that data after consuming it."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "User assessment"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/goods-condition>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "For end of life processing (recycle, parts reuse, product reuse) need estimate of goods condition."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Goods condition"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/revenue>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Revenue increases or decreases with or without access to the data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Revenue"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/service-outcome>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Reduced or improved service outcomes with or without access to the data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Service outcome"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/rival-access-loss>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Estimated financial cost to business of competitors having access to data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Rival access loss"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/access-interval>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A_time series measure weighted towards data most recently created."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Access interval"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/read-write-profile>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Data valuation based on read and write granularity, data distribution, and data association."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Read write profile"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/MetricType>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Metric Type"@en .
+
+<https://emmanuelawe51.github.io/dqkg/metric/customer-lifetime-value>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Data records that describe or refer to specific customers."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Customer lifetime value"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/>
+        a       <http://www.w3.org/2004/02/skos/core#ConceptScheme> , <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://purl.org/dc/terms/abstract>
+                "Machine-readable inventory of data quality metrics linked to ISO 25012 dimensions and Zaveri categories via W3C Data Quality Vocabulary (DQV)."@en ;
+        <http://purl.org/dc/terms/creator>
+                "Emmanuel Awe" ;
+        <http://purl.org/dc/terms/description>
+                "A knowledge graph of data quality metrics extracted from ISO standards and literature, modelled with W3C DQV and SKOS."@en ;
+        <http://purl.org/dc/terms/title>
+                "Data Quality Metrics Knowledge Graph"@en ;
+        <http://purl.org/vocab/vann/preferredNamespacePrefix>
+                "ex" ;
+        <http://purl.org/vocab/vann/preferredNamespaceUri>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2002/07/owl#imports>
+                <http://www.w3.org/2016/05/ldqd> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "0.1" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Data Quality Metrics Knowledge Graph"@en .
+
+<https://emmanuelawe51.github.io/dqkg/metric/revenue-loss>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Estimated financial cost to business of not having access to data or a service based on observations in the data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Revenue loss"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/fixed-record-value>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A_count of records (see data volume metrics) with a fixed value per record can be used."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Fixed record value"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/scarcity>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "IEEE" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The probability that other organisations (particularly competitors and partners) have the same data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from IEEE"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Scarcity"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .

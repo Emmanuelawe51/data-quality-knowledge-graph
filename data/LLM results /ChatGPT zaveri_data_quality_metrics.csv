@@ -1,0 +1,70 @@
+MetricLabel,Definition,Formula,Dimension
+accessibility of the SPARQL endpoint and the server,checking whether the server responds to a SPARQL query,,Availability
+accessibility of the RDF dumps,checking whether an RDF dump is provided and can be downloaded,,Availability
+dereferenceability of the URI,"checking (i) for dead or broken links, (ii) that useful data (particularly RDF) is returned upon lookup of a URI, and (iii) compliance with recommended redirections using status code 303 See Other",,Availability
+no misreported content types,"detect whether the HTTP response contains the header field stating the appropriate content type of the returned file, e.g. application/rdf+xml",,Availability
+dereferenced forward-links,dereferenceability of all forward links: all available triples where the local URI is mentioned in the subject,,Availability
+machine-readable indication of a license,detection of the indication of a license in the VoID description or in the dataset itself,,Licensing
+human-readable indication of a license,detection of a license in the documentation of the dataset,,Licensing
+specifying the correct license,detection of whether the dataset is attributed under the same license as the original,,Licensing
+detection of good quality interlinks,"detection of good quality interlinks using network measures such as interlinking degree, clustering coefficient, centrality, open sameAs chains, and description richness through sameAs; also assessable via crowdsourcing",,Interlinking
+existence of links to external data providers,"detection of the existence and usage of external URIs, e.g. using owl:sameAs links",,Interlinking
+dereferenced back-links,detection of all local in-links or back-links: all triples from a dataset that have the resource’s URI as the object,,Interlinking
+usage of digital signatures,"signing a document containing an RDF serialization, a SPARQL result set, or signing an RDF graph",,Security
+authenticity of the dataset,"verifying authenticity of the dataset based on provenance vocabulary such as author, contributors, publisher, and sources",,Security
+usage of slash-URIs,checking for usage of slash-URIs where large amounts of data is provided,,Performance
+low latency,minimum delay between submission of a request by the user and reception of the response from the system,,Performance
+high throughput,maximum number of answered HTTP requests per second,,Performance
+scalability of a data source,detection of whether the time to answer ten requests divided by ten is not longer than the time it takes to answer one request,,Performance
+no syntax errors of the documents,detecting syntax errors using validators or via crowdsourcing,,Syntactic validity
+syntactically accurate values,"use of explicit definition of allowed values for a datatype, syntactic rules, RDF pattern conformance, typed resources, and outlier/clustering techniques for wrong values",,Syntactic validity
+no malformed datatype literals,detection of ill-typed literals that do not abide by the lexical syntax for their datatype,,Syntactic validity
+no outliers,"detection of outliers using distance-based, deviation-based, distribution-based methods, or statistical distributions of a certain type",,Semantic accuracy
+no inaccurate values,"detection of inaccurate values using functional dependencies, comparison between two literal values of a resource, or crowdsourcing",,Semantic accuracy
+"no inaccurate annotations, labellings or classifications","detection of inaccurate annotations, labellings or classifications using the balanced distance metric",1 − inaccurate instances / total no. of instances * balanced distance metric / total no. of instances,Semantic accuracy
+no misuse of properties,detection of discordant values or misused properties using profiling statistics,,Semantic accuracy
+detection of valid rules,ratio of the number of semantically valid rules to the number of non-trivial rules,number of semantically valid rules / number of non-trivial rules,Semantic accuracy
+no use of entities as members of disjoint classes,detection of use of entities as members of disjoint classes,no. of entities described as members of disjoint classes / total no. of entities described in the dataset,Consistency
+no misplaced classes or properties,detection of misplaced classes or properties using entailment rules that indicate the position of a term in a triple,,Consistency
+no misuse of owl:DatatypeProperty or owl:ObjectProperty,detection of misuse of owl:DatatypeProperty or owl:ObjectProperty through the ontology maintainer,,Consistency
+members of owl:DeprecatedClass or owl:DeprecatedProperty not used,detection of use of deprecated classes/properties through the ontology maintainer or manual mappings,,Consistency
+valid usage of inverse-functional properties,checking uniqueness and validity of inverse-functional values or defining a SPARQL query as a constraint,,Consistency
+absence of ontology hijacking,detection of re-definition by third parties of external classes/properties such that reasoning over data using those external terms is not affected,,Consistency
+no negative dependencies/correlation among properties,detection of negative dependencies/correlation among properties using association rules,,Consistency
+no inconsistencies in spatial data,detection of inconsistencies in spatial data through semantic and geometric constraints,,Consistency
+correct domain and range definition,"the attribution of a resource’s property with a certain value is only valid if the resource, value, or literal value is of a certain type, detected using SPARQL queries as constraints",,Consistency
+no inconsistent values,detection of inconsistent values by generating a set of schema axioms for all properties in a dataset and manually verifying these axioms,,Consistency
+high intensional conciseness,number of unique properties/classes of a dataset relative to the total number of properties/classes in a target schema,no. of unique properties/classes of a dataset / total no. of properties/classes in a target schema,Conciseness
+high extensional conciseness,"number of unique objects of a dataset relative to the total number of object representations, or one minus the fraction of instances violating the uniqueness rule",(i) no. of unique objects of a dataset / total number of object representations in the dataset; (ii) 1 − total no. of instances that violate the uniqueness rule / total no. of relevant instances,Conciseness
+usage of unambiguous annotations/labels,detection of unambiguous annotations/labels,1 − no. of ambiguous instances / no. of instances contained in the semantic metadata set,Conciseness
+schema completeness,number of classes and properties represented relative to the total number of classes and properties,no. of classes and properties represented / total no. of classes and properties,Completeness
+property completeness,"number of values represented for a specific property relative to the total number of values for that property, or detection using statistical distributions of properties and types",(i) no. of values represented for a specific property / total no. of values for a specific property,Completeness
+population completeness,number of real-world objects represented relative to the total number of real-world objects,no. of real-world objects represented / total no. of real-world objects,Completeness
+interlinking completeness,"number of interlinked instances relative to total instances in a dataset, or percentage of mappable types not yet considered in linksets under assumed type alignment",(i) no. of instances in the dataset that are interlinked / total no. of instances in a dataset,Completeness
+relevant terms within meta-information attributes,obtaining relevant data by ranking RDF documents/statements or via crowdsourcing,,Relevancy
+coverage,measuring the coverage and level of detail in a dataset to ensure that the data retrieved is appropriate for the task at hand,,Relevancy
+trustworthiness of statements,"computing statement trust values based on provenance information, opinion-based methods, provenance information and trust annotations in semantic web social networks, or provenance history",,Trustworthiness
+trustworthiness through reasoning,using annotations for data to encode blacklists and authority information,,Trustworthiness
+"trustworthiness of statements, datasets and rules",using trust ontologies that assign trust values transferable from known to unknown data using content-based or metadata-based methods,,Trustworthiness
+trustworthiness of a resource,computing trust values between two entities through a path using propagation algorithms and aggregation across paths,,Trustworthiness
+trustworthiness of the information provider,"computing trustworthiness of the information provider by construction of decision networks informed by provenance graphs, checking lists of trusted providers, or indicating publisher trust level on a 1–9 scale",,Trustworthiness
+trustworthiness of information provided (content trust),checking content trust based on associations that transfer trust from content to resources,,Trustworthiness
+reputation of the dataset,assignment of explicit trust ratings to the dataset by humans or analyzing external links or page ranks,,Trustworthiness
+"human-readable labelling of classes, properties and entities as well as presence of metadata","detection of human-readable labelling of classes, properties and entities as well as indication of metadata such as name, description, and website",,Understandability
+indication of one or more exemplary URIs,detect whether the pattern of the URIs is provided,,Understandability
+indication of a regular expression that matches the URIs of a dataset,detect whether a regular expression that matches the URIs is present,,Understandability
+indication of an exemplary SPARQL query,detect whether examples of SPARQL queries are provided,,Understandability
+indication of the vocabularies used in the dataset,checking whether a list of vocabularies used in the dataset is provided,,Understandability
+provision of message boards and mailing lists,checking the effectiveness and efficiency of the usage of the mailing list and/or message boards,,Understandability
+freshness of datasets based on currency and volatility,detecting freshness of datasets based on currency and volatility,"max(0, 1 − currency / volatility)",Timeliness
+freshness of datasets based on their data source,detecting freshness of datasets based on their data source by measuring the distance between the last modified time of the data source and the last modified time of the dataset,,Timeliness
+keeping URIs short,detection of long URIs or those that contain query parameters,,Representational-conciseness
+no use of prolix RDF features,"detection of RDF primitives such as RDF reification, RDF containers, and RDF collections",,Representational-conciseness
+re-use of existing terms,detection of whether existing terms from all relevant vocabularies for that particular domain have been reused,,Interoperability
+re-use of existing vocabularies,usage of relevant vocabularies for that particular domain,,Interoperability
+use of self-descriptive formats,identifying objects and terms used to define these objects with globally unique identifiers,,Interpretability
+detecting the interpretability of data,"detecting the use of appropriate language, symbols, units, datatypes, and clear definitions",,Interpretability
+invalid usage of undefined classes and properties,"detection of invalid usage of undefined classes and properties, i.e. those without any formal definition",,Interpretability
+no misinterpretation of missing values,detecting the use of blank nodes,,Interpretability
+provision of the data in different serialization formats,checking whether data is available in different serialization formats,,Versatility
+provision of the data in various languages,checking whether data is available in different languages,,Versatility

@@ -1,0 +1,30 @@
+MetricLabel,Definition,Formula,Dimension,Source
+Attribute Completeness,The completeness of a specific attribute A_j is given by the ratio of present values for that attribute to the total number of records.,C_Aj = (Σ_{i=1}^{N} I_ij) / N,Completeness,ETSI
+Record Completeness,The completeness of a specific record R_i (considering a set of K required attributes within that record) is given by the ratio of present values for the required attributes in that record to the total number of required attributes.,C_Ri = (Σ_{j ∈ Required_Attributes} I_ij) / K,Completeness,ETSI
+Dataset Completeness,"The overall completeness of the dataset, considering all N records and M attributes (or a subset of M_req required attributes), can be defined as the average attribute completeness or the total proportion of non-missing values.",C_D = (Σ_{j=1}^{M_req} Σ_{i=1}^{N} I_ij) / (N × M_req),Completeness,ETSI
+Source Consistency Error,"For a single source over N observations, this can be measured as the Mean Absolute Error (MAE).",SCE_MAE = (1/N) Σ_{i=1}^{N} |X_i - E_i|,Reliability,ETSI
+Temporal Stability,"Can be measured for a source by calculating the coefficient of variation (CV) for a specific attribute over a defined time window, indicating how much the data fluctuates relative to its average value.",TS_CV = (σ_x / μ_x) × 100,Reliability,ETSI
+Record Redundancy Ratio,The proportion of the dataset that consists of duplicate records.,RRR = ((N - N_unique) / N) × 100,Redundancy,ETSI
+Duplicate Count,The absolute number of duplicate records.,DC = N - N_unique,Redundancy,ETSI
+Error Rate,The proportion of values that are incorrect.,Error Rate = ((N - N_correct) / N) × 100,Accuracy,ETSI
+Accuracy Rate,The proportion of values that are correct.,Accuracy Rate = (N_correct / N) × 100,Accuracy,ETSI
+Mean Absolute Error,The average magnitude of the errors.,"MAE = (1/N) Σ_{i=1}^{N} |V_data,i - V_true,i|",Accuracy,ETSI
+Mean Squared Error,The average of the squares of the errors (more sensitive to large errors).,"MSE = (1/N) Σ_{i=1}^{N} (V_data,i - V_true,i)^2",Accuracy,ETSI
+Root Mean Squared Error,"The square root of the MSE, in the same units as the original data.",RMSE = √MSE,Accuracy,ETSI
+Data Latency,The absolute time delay for a single data point or record.,L = T_available - T_event,Timeliness,ETSI
+Average Latency,The mean latency across N records over a specific period.,L_avg = (1/N) Σ_{i=1}^{N} L_i,Timeliness,ETSI
+Timeliness Compliance Rate,The proportion of data records that meet the specified latency SLA.,TCR = (N_on-time / N) × 100%,Timeliness,ETSI
+Data Freshness,"For datasets that require periodic updates, freshness measures the time elapsed since the last update relative to the expected update frequency.",F = (T_current - T_last_update) / FI,Timeliness,ETSI
+Overall Consistency Violation Rate,Can be measured as the number of consistency violations detected divided by the total number of checks performed.,CVR = (Number of consistency violations detected / Total number of checks performed) × 100%,Consistency,ETSI
+Overall Consistency Score,Defined as 100% minus the overall consistency violation rate.,CS = 100% - CVR,Consistency,ETSI
+Format Consistency Rate,The number of values adhering to a defined format divided by the total number of values checked.,FCR = (Number of values adhering to defined format / Total number of values checked) × 100%,Consistency,ETSI
+Logical Consistency Rate,The number of records satisfying logical rules divided by the total records checked.,LCR = (Number of records satisfying logical rules / Total records checked) × 100%,Consistency,ETSI
+Calculation Consistency Rate,The number of correct calculations divided by the total calculations checked.,CCR = (Number of correct calculations / Total calculations checked) × 100%,Consistency,ETSI
+Referential Integrity Consistency Rate,The number of valid foreign key relationships divided by the total foreign key relationships.,RICR = (Number of valid foreign key relationships / Total foreign key relationships) × 100%,Consistency,ETSI
+Business Rule Consistency Rate,The number of business rule compliant records divided by the total records checked.,BRCR = (Number of business rule compliant records / Total records checked) × 100%,Consistency,ETSI
+Data Synchronization Rate,The number of matching values across systems divided by the total values compared.,DSR = (Number of matching values across systems / Total values compared) × 100%,Consistency,ETSI
+Master Data Alignment Rate,The number of aligned master data records divided by the total master data records.,MDAR = (Number of aligned master data records / Total master data records) × 100%,Consistency,ETSI
+Integrity Score,"A composite metric based on key dimensions such as completeness, accuracy, and consistency.",Integrity Score = ((Completeness + Accuracy + Consistency) / 3) × 100%,Integrity,ETSI
+Completeness Score,The number of non-missing values divided by the total expected values.,Completeness Score = Number of non-missing values / Total expected values,Integrity,ETSI
+Accuracy Score,"The number of valid values (e.g., within expected ranges or formats) divided by the total values.",Accuracy Score = Number of valid values / Total values,Integrity,ETSI
+Consistency Score,"The number of records adhering to business rules (e.g., no duplicates, referential integrity) divided by the total records.",Consistency Score = Number of records adhering to business rules / Total records,Integrity,ETSI

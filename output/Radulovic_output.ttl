@@ -1,0 +1,418 @@
+<https://emmanuelawe51.github.io/dqkg/metric/linked-data-quality-model>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Is that it provides reference for the measures to be evaluated and a large amount of provenance information for understanding how the evaluation was performed."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Linked Data Quality Model"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#semanticAccuracy> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/a-measure>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Is dependent on the system (isSystemDependent), the period of time during which the result for the measure is valid (TemporalValidity), the technique used in the evaluation for assessing a measure (AssessmentTechnique), whether an assessment technique is subjective or objective (isSubjective), the expected duration of the assessment (ExpectedDuration), and whether an evaluation is done automatically, semi-automatically or manually (AutomationLevel)."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "A measure"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/qualitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/coverage>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Is in direct relation with the coverage of the survey by Zaveri et al., it can be assumed that the Linked Data quality model is as comprehensive and complete as the mentioned survey."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Coverage"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/qualitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/tool>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Is an initial effort in exploiting the Linked Data quality model, it can be assumed that this quality model has potential to be successfully applied in practice as a reference for Linked Data evaluation since parts of it are already used by existing tools and ontologies to represent their evaluation results."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Tool"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/a-comprehensive-quality-model>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Was the state of the art in Linked Data quality assessment and speciﬁcation, and in particular the work done by Zaveri et al."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "A comprehensive quality model"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/average-predicate-dereferenceability>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Are commonly in the 90 to 100 range while the average subject dereferenceability varies in a wider range."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Average predicate dereferenceability"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/MetricType>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Metric Type"@en .
+
+<https://emmanuelawe51.github.io/dqkg/metric/model-aspect>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Refers to different designs that are taken into account when modelling the domain data and metadata as RDF data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Model aspect"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/first-step>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Is to identify how the quality of a Linked Data resource can be measured and what metrics can be used to measure quality."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "FIrst step"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metricType/qualitative>
+        a       <https://emmanuelawe51.github.io/dqkg/MetricType> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Qualitative"@en .
+
+<https://emmanuelawe51.github.io/dqkg/formula>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Mathematical expression describing how the metric is computed."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://www.w3.org/ns/dqv#Metric> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "formula"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/second-step>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Is to decide which metrics to be used in the quality assessment."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Second step"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/an-iri>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Is short with respect to some predeﬁned threshold IRI.length < threshold (1) Formulas for Number of dereferenceable IRIs (2) and Number of dereferenceable subjects (3) calculate the total number of dereferenceable IRIs and subjects in a dataset, respectively."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "An IRI"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/such-quality-model>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Is a step towards a consistent terminology for Linked Data quality, and it describes a comprehensive set of quality characteristics and measures speciﬁc to Linked Data, together with their definitions and formulas."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Such quality model"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/main-reason>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Is the fact that the DBpedia server fails when many re14http://nandana.github.io/ld-sniffer/sparql.html 15https://datahub.io/dataset/ldqm-dbpedia-2016 quests are sent and returns a ‘503 Service Unavailable’ error."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Main reason"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/a-base-measure>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Measured, it can be aggregated to come up with derived measures that are associated with a higher level such as triples, RDF graphs or datasets."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "A base measure"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/interlinks-aspect>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Refers to exposing the RDF data as Linked Data and to linking the data to other relevant data so that consumers can discover more related data with the follow-your-nose approach."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Interlinks aspect"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/provided-rdf-representation>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Be signiﬁcant in the production, interchange, and consumption of quality evaluation data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Provided RDF representation"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metricType>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Indicates whether a metric is quantitative or qualitative."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://www.w3.org/ns/dqv#Metric> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "metric type"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://emmanuelawe51.github.io/dqkg/MetricType> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/serialization-aspect>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Refers to the representation of RDF data in some RDF serialization format such as Turtle, RDF/XML, JSON-LD, N3, N triples, N_quads, Fig."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Serialization aspect"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metricType/quantitative>
+        a       <https://emmanuelawe51.github.io/dqkg/MetricType> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Quantitative"@en .
+
+<https://emmanuelawe51.github.io/dqkg/metric/an-example>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Be memory consumption per open tab in a single test."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "An example"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/goal>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Is to automate the creation of quality reports based on the data quality requirements deﬁned using the DQM ontology with a data quality score based on each requirement."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Goal"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#unknown> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/>
+        a       <http://www.w3.org/2004/02/skos/core#ConceptScheme> , <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://purl.org/dc/terms/abstract>
+                "Machine-readable inventory of data quality metrics linked to ISO 25012 dimensions and Zaveri categories via W3C Data Quality Vocabulary (DQV)."@en ;
+        <http://purl.org/dc/terms/creator>
+                "Emmanuel Awe" ;
+        <http://purl.org/dc/terms/description>
+                "A knowledge graph of data quality metrics extracted from ISO standards and literature, modelled with W3C DQV and SKOS."@en ;
+        <http://purl.org/dc/terms/title>
+                "Data Quality Metrics Knowledge Graph"@en ;
+        <http://purl.org/vocab/vann/preferredNamespacePrefix>
+                "ex" ;
+        <http://purl.org/vocab/vann/preferredNamespaceUri>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2002/07/owl#imports>
+                <http://www.w3.org/2016/05/ldqd> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "0.1" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Data Quality Metrics Knowledge Graph"@en .
+
+<https://emmanuelawe51.github.io/dqkg/metric/higher-values>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Radulovic" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Are more desirable (e.g., for precision or number of dereferenceable URIs, it is clear that a higher value is more desirable)."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Radulovic"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Higher values"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#semanticAccuracy> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .

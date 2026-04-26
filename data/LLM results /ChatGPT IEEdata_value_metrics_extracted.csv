@@ -1,0 +1,43 @@
+MetricLabel,Definition,Formula,Dimension
+Compliance cost,Estimated financial cost to business of not keeping data for compliance/regulation purposes.,,Financial
+Fixed record value,A count of records with a fixed value per record can be used.,,Financial
+IP value,For intellectual property data assets whose value is directly proportional to its financial value (e.g. licences or patents).,,Financial
+Maintenance cost,"Estimated financial cost to business of maintaining, adapting or curating data.",,Financial
+Market price,"Price that a user will accept for data, sometimes in return for a specific service.",,Financial
+Replacement cost,"Estimated financial cost to create, replace or reproduce this data.",,Financial
+Revenue loss,Estimated financial cost to business of not having access to data or a service based on observations in the data.,,Financial
+Rival access loss,Estimated financial cost to business of competitors having access to data.,,Financial
+Storage cost,Estimated financial cost to business of storing data.,,Financial
+Camera resolution,"For visual sensors, a measure of the potential accuracy of sensor readings from a specific source.",,Content-Uniqueness
+Customer lifetime value,"Data records that describe or refer to specific customers, for example business transactions with that customer, may be weighted. Typically used with count of records.",,Content-Uniqueness
+Field value,The financial amount of a transaction recorded in a field of a data record may be used as a weight for the value of that record. Typically used with count of records.,,Content-Uniqueness
+Image quality,"An estimate of the quality of an image based on camera type, brightness, contrast, resolution, noise, and exposition.",,Content-Uniqueness
+Data information entropy,A measure of the uniqueness of data in the dataset.,,Content-Uniqueness
+Event information measure,"By classifying the contents of an image or sensor reading to a set of events with known probabilities, this calculates the information measure of the image containing a specific event. Alternatively, a Fisher Information Matrix (FIM)-based metric may be used.",,Content-Uniqueness
+KNN Shapley value,"For K-nearest neighbours classifier algorithms, the Shapley value of the KNN utility of each data point can be calculated.",,Content-Uniqueness
+Lexical semantic uniqueness,A measure of the fraction of most unique words in a file compared to the contents of the whole collection.,,Content-Uniqueness
+Mutual information,A qualification of the inferential gain by increasing the size or features of data when comparing two datasets.,,Content-Uniqueness
+Scarcity,"The probability that other organisations, particularly competitors and partners, have the same data.",,Content-Uniqueness
+Access interval,A time series measure weighted towards data most recently created.,,Usage
+Frequency,An access time series measure based on how often data is read and written to.,,Usage
+Number of accesses,A measure of the degree of usage.,,Usage
+Potential user count,"An estimate of the number of similar users in the system compared to the ones that have accessed the data, and that are hence likely to also access the data.",,Usage
+Purpose,A measure of the significance of the type of usage.,,Usage
+Read write profile,"Data valuation based on read and write granularity, data distribution, and data association.",,Usage
+Recency,A specialised time-based metric to capture when data was last used.,,Usage
+User count,The number of unique users that access the data.,,Usage
+User role,A measure of the significance of the usage based on user role.,,Usage
+Usage over time,A quantification of value based on the usage of the data over time.,,Usage
+Fidelity,Usefulness of sample data for a given inferential task.,,Utility
+Goods condition,"For end-of-life processing (recycle, parts reuse, product reuse), an estimate of goods condition is needed.",,Utility
+Market price,"Price that a user will accept for data, sometimes in return for a specific service.",,Utility
+nKudos,Number of approvals ('kudos') given to a message by the community.,,Utility
+Personal data differential price,A measure that calculates the relative utility of a dataset by comparing the differences between original data of a personal nature and an obfuscated version of the same data.,,Utility
+Provider assessment,An assessment of the value of a data item by the provider of that data.,,Utility
+Relevancy,"The number of business processes that use, or could benefit from this data.",,Utility
+Revenue,Revenue increases or decreases with or without access to the data.,,Utility
+Rival access loss,Estimated financial cost to business of competitors having access to data.,,Utility
+Service outcome,Reduced or improved service outcomes with or without access to the data.,,Utility
+Safety distance,"For vehicular sensors, a measure of the distance where sensor readings become increasingly important.",,Utility
+User assessment,An assessment of the value of a data item by the user of that data after consuming it.,,Utility
+User priority,Priority given to a data item by a specific user.,,Utility

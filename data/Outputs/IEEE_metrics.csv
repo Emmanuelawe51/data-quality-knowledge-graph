@@ -1,0 +1,39 @@
+MetricID,MetricLabel,Definition,Formula,Source,Dimension,MetricType
+compliance-cost,Compliance cost,Estimated financial cost to business of not keeping data for compliance/regulation purposes.,NULL,IEEE,unknown,quantitative
+fixed-record-value,Fixed record value,A_count of records (see data volume metrics) with a fixed value per record can be used.,NULL,IEEE,unknown,quantitative
+ip-value,IP value,For intellectual property data assets whose value is directly proportional to its financial value (e.g. licences or patents).,NULL,IEEE,unknown,quantitative
+maintenance-cost,Maintenance cost,"Estimated financial cost to business of maintaining, adapting or curating data.",NULL,IEEE,unknown,quantitative
+market-price,Market price,"Price that a user will accept for data, sometimes in return for a specific service.",NULL,IEEE,unknown,quantitative
+replacement-cost,Replacement cost,"Estimated financial cost to create, replace or reproduce this data.",NULL,IEEE,unknown,quantitative
+revenue-loss,Revenue loss,Estimated financial cost to business of not having access to data or a service based on observations in the data.,NULL,IEEE,unknown,quantitative
+rival-access-loss,Rival access loss,Estimated financial cost to business of competitors having access to data.,NULL,IEEE,unknown,quantitative
+storage-cost,Storage cost,Estimated financial cost to business of storing data.,NULL,IEEE,unknown,quantitative
+camera-resolution,Camera resolution,For visual sensors a measure of the potential accuracy of sensor readings from a specific source.,NULL,IEEE,unknown,quantitative
+customer-lifetime-value,Customer lifetime value,Data records that describe or refer to specific customers.,NULL,IEEE,unknown,quantitative
+field-value,Field value,The financial amount of a transaction recorded in a field of a data record may be used as a weight for the value of that record. Typically used with count of records.,NULL,IEEE,unknown,quantitative
+image-quality,Image quality,"An estimate of the quality of an image based on camera type (smartphone type), brightness, contrast, resolution, noise, and exposition.",NULL,IEEE,unknown,quantitative
+data-information-entropy,Data information entropy,A measure of the uniqueness of data in the dataset.,NULL,IEEE,unknown,quantitative
+event-information-measure,Event information measure,"By classifying the contents of an image or sensor reading to a set of events with known probabilities, can calculate the information measure of the image containing a specific event. Alternatively specify a Fisher Information Matrix (FIM) based metric.",NULL,IEEE,unknown,quantitative
+knn-shapley-value,KNN Shapley value,For K-nearest neighbours classifier algorithms Jia et al. provide an efficient Monte Carlo method to calculate the Shapley value of the KNN utility of each data point.,NULL,IEEE,unknown,quantitative
+lexical-semantic-uniqueness,Lexical semantic uniqueness,A measure of the fraction of most unique words in a file compared to the contents of the whole collection.,NULL,IEEE,unknown,quantitative
+mutual-information,Mutual information,A qualification of the inferential gain by increasing the size or features of data when comparing two datasets.,NULL,IEEE,unknown,quantitative
+scarcity,Scarcity,The probability that other organisations (particularly competitors and partners) have the same data.,NULL,IEEE,unknown,quantitative
+access-interval,Access interval,A_time series measure weighted towards data most recently created.,NULL,IEEE,unknown,quantitative
+frequency,Frequency,An access time series measure based on how often data is read and written to.,NULL,IEEE,unknown,quantitative
+number-of-accesses,Number of accesses,A measure of the degree of usage. Moody et al. suggest this metric.,NULL,IEEE,unknown,quantitative
+potential-user-count,Potential user count,"An estimate of the number of similar users in the system compared to the ones that have accessed the data, that are hence likely to also access the data.",NULL,IEEE,unknown,quantitative
+purpose,Purpose,A measure of the significance of the type of usage.,NULL,IEEE,unknown,quantitative
+read-write-profile,Read write profile,"Data valuation based on read and write granularity, data distribution, and data association.",NULL,IEEE,unknown,quantitative
+recency,Recency,"A specialised time-based metric to capture when data was last used, defined by.",NULL,IEEE,unknown,quantitative
+user-count,User count,"Called the number of visits by Qiu et al., the number of unique users that access the data.",NULL,IEEE,unknown,quantitative
+usage-over-time,Usage over time,A quantification of value based on the usage of the data over time.,NULL,IEEE,unknown,quantitative
+fidelity,Fidelity,Usefulness of sample data for a given inferential task.,NULL,IEEE,unknown,quantitative
+goods-condition,Goods condition,"For end of life processing (recycle, parts reuse, product reuse) need estimate of goods condition.",NULL,IEEE,unknown,quantitative
+personal-data-differential-price,Personal data differential price,"A measure that calculates the relative utility of a dataset by comparing the differences between original data of a personal nature, and an obfuscated version of the same data.",NULL,IEEE,unknown,quantitative
+provider-assessment,Provider assessment,An assessment of the value of a data item by the provider of that data.,NULL,IEEE,unknown,quantitative
+relevancy,Relevancy,"The number of business processes that use, or could benefit from this data.",NULL,IEEE,unknown,quantitative
+revenue,Revenue,Revenue increases or decreases with or without access to the data.,NULL,IEEE,unknown,quantitative
+service-outcome,Service outcome,Reduced or improved service outcomes with or without access to the data.,NULL,IEEE,unknown,quantitative
+safety-distance,Safety distance,For vehicular sensors a measure of the distance where sensor readings become increasingly important.,NULL,IEEE,unknown,quantitative
+user-assessment,User assessment,An assessment of the value of a data item by the user of that data after consuming it.,NULL,IEEE,unknown,quantitative
+user-priority,User priority,Priority given to a data item by a specific user.,NULL,IEEE,unknown,quantitative

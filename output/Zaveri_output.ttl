@@ -1,0 +1,1368 @@
+<https://emmanuelawe51.github.io/dqkg/metric/dereferenceability-of-the-uri>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Checking (i) for dead or broken links i.e. when an HTTP-GET request is sent, the status code 404 Not Found is not be returned (ii) that useful data (particularly RDF) is returned upon lookup of a URI, (iii) for changes in the URI i.e. the compliance with the recommended way of implementing redirections using the status code 303 See Other."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "dereferenceability of the URI"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#availability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/indication-of-the-vocabularies-used-in-the-dataset>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Checking whether a list of vocabularies used in the dataset is provided."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "indication of the vocabularies used in the dataset"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#understandability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-syntax-errors-of-the-documents>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detecting syntax errors using (i) validators, (ii) via crowdsourcing."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no syntax errors of the documents"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#syntacticValidity> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/human-readable-labelling-of-classes-properties-and-entities-as-well-as-presence-of-metadata>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of human-readable labelling of classes, properties and entities as well as indication of metadata (e.g. name, description, website) of a dataset."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "human-readable labelling of classes, properties and entities as well as presence of metadata"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#understandability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/provision-of-message-boards-and-mailing-lists>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Checking the effectiveness and the efﬁciency of the usage of the mailing list and/or the message boards."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "provision of message boards and mailing lists"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#understandability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-outliers>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "By (i) using distance-based, deviation-based and distribution-based methods, (ii) using the statistical distributions of a certain type to assess the statement’s correctness."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no outliers"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#semanticAccuracy> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-inaccurate-values>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "By (i) using functional dependencies between the values of two or more different properties, (ii) comparison between two literal values of a resource, (iii) via crowdsourcing."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no inaccurate values"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#semanticAccuracy> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/reputation-of-the-dataset>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Assignment of explicit trust ratings to the dataset by humans or analyzing external links or page ranks."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "reputation of the dataset"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#trustworthiness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/coverage>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Measuring the coverage (i.e. number of entities described in a dataset) and level of detail (i.e. number of properties) in a dataset to ensure that the data retrieved is appropriate for the task at hand."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "coverage"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#relevancy> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/dereferenced-back-links>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of all local in-links or back-links: all triples from a dataset that have the resource’s URI as the object."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "dereferenced back-links"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#interlinking> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/detecting-the-interpretability-of-data>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detecting the use of appropriate language, symbols, units, datatypes and clear deﬁnitions."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "detecting the interpretability of data"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#interpretability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metricType/quantitative>
+        a       <https://emmanuelawe51.github.io/dqkg/MetricType> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Quantitative"@en .
+
+<https://emmanuelawe51.github.io/dqkg/metric/usage-of-slash-uris>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Checking for usage of slash-URIs where large amounts of data is provided."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "usage of slash-URIs"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#performance> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/absence-of-ontology-hijacking>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of the re-deﬁnition by third parties of external classes/ properties such that reasoning over data using those external terms is not affected."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "absence of ontology hijacking"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#consistency> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/machine-readable-indication-of-a-license>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of the indication of a license in the VoID description or in the dataset itself."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "machine-readable indication of a license"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#licensing> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/valid-usage-of-inverse-functional-properties>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "By checking the uniqueness and validity of the inverse-functional values, (ii) by deﬁning a SPARQL query as a constraint."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "valid usage of inverse-functional properties"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#consistency> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/dereferenced-forward-links>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Dereferenceability of all forward links: all available triples where the local URI is mentioned in the subject (i.e. the description of the resource)."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "dereferenced forward-links"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#availability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/accessibility-of-the-rdf-dumps>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Checking whether an RDF dump is provided and can be downloaded."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "accessibility of the RDF dumps"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#availability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/high-intensional-conciseness>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "No. of unique properties/classes of a dataset total no. of properties/classes in a target schema."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "high intensional conciseness"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#conciseness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-inconsistent-values>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection by the generation of a particular set of schema axioms for all properties in a dataset and the manual veriﬁcation of these axioms."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no inconsistent values"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#consistency> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/formula>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Mathematical expression describing how the metric is computed."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://www.w3.org/ns/dqv#Metric> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "formula"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/indication-of-an-exemplary-sparql-query>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detect whether examples of SPARQL queries are provided."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "indication of an exemplary SPARQL query"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#understandability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/human-readable-indication-of-a-license>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of a license in the documentation of the dataset."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "human-readable indication of a license"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#licensing> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/indication-of-a-regular-expression-that-matches-the-uris-of-a-dataset>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detect whether a regular expression that matches the URIs is present."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "indication of a regular expression that matches the URIs of a dataset"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#understandability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/accessibility-of-the-sparql-endpoint-and-the-server>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Checking whether the server responds to a SPARQL query."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "accessibility of the SPARQL endpoint and the server"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#availability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metricType>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Indicates whether a metric is quantitative or qualitative."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://www.w3.org/ns/dqv#Metric> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "metric type"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://emmanuelawe51.github.io/dqkg/MetricType> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/schema-completeness>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "No. of classes and properties represented total no. of classes and properties."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "schema completeness"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#completeness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metricType/qualitative>
+        a       <https://emmanuelawe51.github.io/dqkg/MetricType> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Qualitative"@en .
+
+<https://emmanuelawe51.github.io/dqkg/metric/members-of-owl-deprecatedclass-or-owl-deprecatedproperty-not-used>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of use of members of owl:DeprecatedClass or owl: DeprecatedProperty through the ontology maintainer or by specifying manual mappings from deprecated terms to compatible terms."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "members of owl:DeprecatedClass or owl:DeprecatedProperty not used"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#consistency> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/existence-of-links-to-external-data-providers>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of the existence and usage of external URIs (e.g. using owl:sameAs links)."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "existence of links to external data providers"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#interlinking> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/relevant-terms-within-metainformation-attributes>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Obtaining relevant data by (i) ranking (a numerical value similar to PageRank), which determines the centrality of RDF documents and statements, (ii) via crowdsourcing."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "relevant terms within metainformation attributes"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#relevancy> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-inaccurate-annotations-labellings-or-classifications>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "1 −inaccurate instances total no. of instances ∗balanced distance metric total no. of instances."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no inaccurate annotations, labellings or classifications"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#semanticAccuracy> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/re-use-of-existing-terms>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of whether existing terms from all relevant vocabularies for that particular domain have been reused."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "re-use of existing terms"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#interoperability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/provision-of-the-data-in-various-languages>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Checking whether data is available in different languages."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "provision of the data in various languages"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#versatility> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-inconsistencies-in-spatial-data>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Through semantic and geometric constraints."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no inconsistencies in spatial data"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#consistency> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/property-completeness>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "No. of values represented for a speciﬁc property total no. of values for a speciﬁc property, (ii) exploiting statistical distributions of properties and types to characterize the property and then detect completeness."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "property completeness"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#completeness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-misinterpretation-of-missing-values>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detecting the use of blank nodes."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no misinterpretation of missing values"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#interpretability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/trustworthiness-of-information-provided-content-trust>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Checking content trust based on associations (e.g. anything having a relationship to a resource such as author of the dataset) that transfers trust from content to resources."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "trustworthiness of information provided (content trust)"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#trustworthiness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/keeping-uris-short>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of long URIs or those that contain query parameters."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "keeping URIs short"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#representationalConciseness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/use-of-self-descriptive-formats>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Identifying objects and terms used to deﬁne these objects with globally unique identiﬁers."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "use of self-descriptive formats"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#interpretability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-misuse-of-owl-datatypeproperty-or-owl-objectproperty>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of misuse of owl:DatatypeProperty or owl: ObjectProperty through the ontology maintainer."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no misuse of owl:DatatypeProperty or owl:ObjectProperty"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#consistency> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/high-throughput>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "No. of answered HTTP-requests per second."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "high throughput"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#performance> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/freshness-of-datasets-based-on-currency-and-volatility>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Max  0, 1 −currency volatility , which gives a value in a continuous scale from 0 to 1, where score of 1 implies that the data is timely and 0 means it is completely outdated thus unacceptable. In the formula, volatility is the length of time the data remains valid and currency is the age of the data when delivered to the user."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "freshness of datasets based on currency and volatility"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#timeliness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/re-use-of-existing-vocabularies>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Usage of relevant vocabularies for that particular domain."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "re-use of existing vocabularies"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#interoperability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-misplaced-classes-or-properties>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Using entailment rules that indicate the position of a term in a triple."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no misplaced classes or properties"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#consistency> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/detection-of-good-quality-interlinks>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of (a) interlinking degree, (b) clustering coefﬁcient, (c) centrality, (d) open sameAs chains and (e) description richness through sameAs by using network measures, (ii) via crowdsourcing."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "detection of good quality interlinks"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#interlinking> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-use-of-entities-as-members-of-disjoint-classes>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "No. of entities described as members of disjoint classes total no. of entities described in the dataset."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no use of entities as members of disjoint classes"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#consistency> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/authenticity-of-the-dataset>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Verifying authenticity of the dataset based on a provenance vocabulary such as author and his contributors, the publisher of the data and its sources (if present in the dataset)."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "authenticity of the dataset"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#security> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-negative-dependencies-correlation-among-properties>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Using association rules."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no negative dependencies/correlation among properties"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#consistency> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/trustworthiness-of-statements-datasets-and-rules>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Using trust ontologies that assigns trust values that can be transferred from known to unknown data using: (i) content-based methods (from content or rules) and (ii) metadata-based methods (based on reputation assignments, user ratings, and provenance, rather than the content itself)."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "trustworthiness of statements, datasets and rules"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#trustworthiness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/trustworthiness-of-statements>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Computing statement trust values based on: (i) provenance information which can be either unknown or a value in the interval [−1,1] where 1: absolute belief, −1: absolute disbelief and 0: lack of belief/ disbelief (ii) opinion-based method, which use trust annotations made by several individuals (iii) provenance information and trust annotations in Semantic Web-based social-networks (iv) annotating triples with provenance data and usage of provenance history to evaluate the trustworthiness of facts."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "trustworthiness of statements"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#trustworthiness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/qualitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/trustworthiness-of-a-resource>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Computing trust values between two entities through a path by using: (i) a propagation algorithm based on statistical techniques (ii) in case there are several paths, trust values from all paths are aggregated based on a weighting mechanism."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "trustworthiness of a resource"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#trustworthiness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/MetricType>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Metric Type"@en .
+
+<https://emmanuelawe51.github.io/dqkg/metric/population-completeness>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "No. of real-world objects are represented total no. of real-world objects."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "population completeness"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#completeness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/detection-of-valid-rules>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Ratio of the number of semantically valid rules to the number of nontrivial rules."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "detection of valid rules"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#semanticAccuracy> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/syntactically-accurate-values>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "By (i) use of explicit deﬁnition of the allowed values for a datatype, (ii) syntactic rules, (iii) detecting whether the data conforms to the speciﬁc RDF pattern and that the “types” are deﬁned for speciﬁc resources, (iv) use of different outlier techniques and clustering for detecting wrong values."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "syntactically accurate values"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#syntacticValidity> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/high-extensional-conciseness>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "No. of unique objects of a dataset total number of objects representations in the dataset, (ii) 1 −total no. of instances that violate the uniqueness rule total no. of relevant instances."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "high extensional conciseness"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#conciseness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/scalability-of-a-data-source>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of whether the time to answer an amount of ten requests divided by ten is not longer than the time it takes to answer one request QN resent this information as RDF. This allows a user to query the integrated dataset for a ﬂight between any start and end destination for any time period. We will use this scenario throughout as an example to explain each quality dimension through a quality issue. 4.1. Accessibility dimensions The dimensions belonging to this category involve aspects related to the access, authenticity and retrieval of data to obtain either the entire or some portion of the data (or from another linked dataset) for a particular use case. There are ﬁve dimensions that are part of this group, which are availability, licensing, interlinking, security and performance. Table 2 displays metrics for these dimensions and provides references to the original literature. 4.1.1. Availability Flemming referred to availability as the proper functioning of all access methods. The other articles provide metrics for this dimension. Deﬁnition 1 (Availability). Availability of a dataset is the extent to which data (or some portion of it) is present, obtainable and ready for use."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "scalability of a data source"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#performance> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/correct-domain-and-range>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Deﬁnition the attribution of a resource’s property (with a certain value) is only valid if the resource (domain), value (range) or literal value (rdfs ranged) is of a certain type – detected by use of SPARQL queries as a constraint."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "correct domain and range"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#consistency> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/usage-of-unambiguous-annotations-labels>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "1 − no. of ambiguous instances no. of instances contained in the semantic metadata set."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "usage of unambiguous annotations/labels"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#conciseness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/>
+        a       <http://www.w3.org/2004/02/skos/core#ConceptScheme> , <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://purl.org/dc/terms/abstract>
+                "Machine-readable inventory of data quality metrics linked to ISO 25012 dimensions and Zaveri categories via W3C Data Quality Vocabulary (DQV)."@en ;
+        <http://purl.org/dc/terms/creator>
+                "Emmanuel Awe" ;
+        <http://purl.org/dc/terms/description>
+                "A knowledge graph of data quality metrics extracted from ISO standards and literature, modelled with W3C DQV and SKOS."@en ;
+        <http://purl.org/dc/terms/title>
+                "Data Quality Metrics Knowledge Graph"@en ;
+        <http://purl.org/vocab/vann/preferredNamespacePrefix>
+                "ex" ;
+        <http://purl.org/vocab/vann/preferredNamespaceUri>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2002/07/owl#imports>
+                <http://www.w3.org/2016/05/ldqd> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "0.1" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Data Quality Metrics Knowledge Graph"@en .
+
+<https://emmanuelawe51.github.io/dqkg/metric/low-latency>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Delay between submission of a request by the user and reception of the response from the system."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "low latency"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#performance> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-malformed-datatype-literals>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of ill-typed literals, which do not abide by the lexical syntax for their respective datatype that can occur if a value is (i) malformed, (ii) is a member of an incompatible datatype."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no malformed datatype literals"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#syntacticValidity> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/freshness-of-datasets-based-on-their-data-source>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detecting freshness of datasets based on their data source by measuring the distance between last modiﬁed time of the data source and last modiﬁed time of the dataset QN – T3: using trust ontologies that assigns trust values that can be transferred from known to unknown data using: ∗(i) content-based methods (from content or rules) and ∗(ii) metadata-based methods (based on reputation assignments, user ratings, and provenance, rather than the content itself) – T4: computing trust values between two entities through a path by using: ∗(i) a propagation algorithm based on statistical techniques ∗(ii) in case there are several paths, trust values from all paths are aggregated based on a weighting mechanism – T5: computing trustworthiness of the information provider by: ∗(i) construction of decision networks informed by provenance graphs ∗(ii) checking whether the provider/contributor is contained in a list of trusted providers ∗(iii) indicating the level of trust for the publisher on a scale of 1–9 – T6: checking content trust24 based on associations (e.g. anything having a relationship to a resource such as author of the dataset) that transfer trust from content to resources – T7: assignment of explicit trust ratings to the dataset by humans or analyzing external links or page ranks 24Content trust is a trust judgement on a particular piece of information in a given context. Example. In our ﬂight search engine use case, if the ﬂight information is provided by trusted and wellknown airlines then a user is more likely to trust the information than when it is provided by an unknown travel agency. Generally information about a product or service (e.g. a ﬂight) can be trusted when it is directly published by the producer or service provider (e.g. the airline). On the other hand, if a user retrieves information from a previously unknown source, she can decide whether to believe this information by checking whether the source is well-known or if it is contained in a list of trusted providers. 4.3.3. Understandability Flemming related understandability to the comprehensibility of data i.e. the ease with which human consumers can understand and utilize the data. Thus, comprehensibility can be interchangeably used with understandability. Hogan et al. speciﬁed the importance of providing human-readable metadata “for allowing users to visualize, browse and understand RDF data, where providing labels and descriptions establishes a baseline”. Feeney et al. provide a metric for this dimension. Deﬁnition 13 (Understandability). Understandability refers to the ease with which data can be comprehended without ambiguity and be used by a human information consumer. Metrics. The metrics identiﬁed for understandability are: – U1: detection of human-readable labelling of classes, properties and entities as well as indication of metadata (e.g. name, description, website) of a dataset – U2: detect whether the pattern of the URIs is provided."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "freshness of datasets based on their data source"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#timeliness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/qualitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/interlinking-completeness>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "No. of instances in the dataset that are interlinked total no. of instances in a dataset, (ii) calculating percentage of mappable types in a datasets that have not yet been considered in the linksets when assuming an alignment among types."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "interlinking completeness"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#completeness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-misreported-content-types>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detect whether the HTTP response contains the header ﬁeld stating the appropriate content type of the returned ﬁle e.g. application/rdf+xml."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no misreported content types"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#availability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/trustworthiness-through-reasoning>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Using annotations for data to encode two facets of information: (i) blacklists (indicates that the referent data is known to be harmful) (ii) authority (a boolean value which uses the Linked Data principles to conservatively determine whether or not information can be trusted)."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "trustworthiness through reasoning"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#trustworthiness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-misuse-of-properties>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "By using proﬁling statistics, which support the detection of discordant values or misused properties and facilitate to ﬁnd valid formats for speciﬁc properties."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no misuse of properties"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#semanticAccuracy> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/indication-of-one-or-more-exemplary-uris>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detect whether the pattern of the URIs is provided."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "indication of one or more exemplary URIs"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#understandability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/usage-of-digital-signatures>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "By signing a document containing an RDF serialization, a SPARQL result set or signing an RDF graph."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "usage of digital signatures"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#security> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/specifying-the-correct-license>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of whether the dataset is attributed under the same license as the original."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "specifying the correct license"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#licensing> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/provision-of-the-data-in-different-serialization-formats>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Checking whether data is available in different serialization formats."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "provision of the data in different serialization formats"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#versatility> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/trustworthiness-of-the-information-provider>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Computing trustworthiness of the information provider by: (i) construction of decision networks informed by provenance graphs (ii) checking whether the provider/contributor is contained in a list of trusted providers."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "trustworthiness of the information provider"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#trustworthiness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/invalid-usage-of-undefined-classes-and-properties>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of invalid usage of undeﬁned classes and properties (i.e. those without any formal deﬁnition)."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "invalid usage of undefined classes and properties"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#interpretability> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/no-use-of-prolix-rdf-features>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "Zaveri" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Detection of RDF primitives i.e. RDF reiﬁcation, RDF containers and RDF collections."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from Zaveri"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "no use of prolix RDF features"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#representationalConciseness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "NULL" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .

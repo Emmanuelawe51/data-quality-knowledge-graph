@@ -1,0 +1,285 @@
+<https://emmanuelawe51.github.io/dqkg/metric/dataset-completeness>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "ETSI" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The overall completeness of the dataset, considering all N records and M attributes (or a subset of M_req required attributes), can be defined as the average attribute completeness or the total proportion of non-missing values: Where M_req is the number of attributes deemed \"required\" for the dataset's intended use."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from ETSI"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Dataset Completeness"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#completeness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "C_D = (∑(j=1to M_req) ∑(i=1to N) I_ij)/(N × M_req)" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/MetricType>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Metric Type"@en .
+
+<https://emmanuelawe51.github.io/dqkg/formula>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Mathematical expression describing how the metric is computed."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://www.w3.org/ns/dqv#Metric> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "formula"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<https://emmanuelawe51.github.io/dqkg/metricType/qualitative>
+        a       <https://emmanuelawe51.github.io/dqkg/MetricType> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Qualitative"@en .
+
+<https://emmanuelawe51.github.io/dqkg/metric/attribute-completeness>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "ETSI" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The completeness of a specific attribute A_j is given by the ratio of present values for that attribute to the total number of records."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from ETSI"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Attribute Completeness"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#completeness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "C_Aj = (∑(i=1to N) I_ij)/N" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/accuracy-rate>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "ETSI" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The proportion of values that are correct."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from ETSI"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Accuracy Rate"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#semanticAccuracy> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "Accuracy Rate= N_correct/N × 100" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/mean-squared-error>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "ETSI" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The average of the squares of the errors (more sensitive to large errors)."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from ETSI"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Mean Squared Error"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#semanticAccuracy> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "MSE= 1/N ∑(i-1to N) ( V_data,i - V_true,i )^2" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/duplicate-count>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "ETSI" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Is the absolute number of duplicate records."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from ETSI"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Duplicate Count"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#conciseness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "DC=N- N_unique" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/temporal-stability>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "ETSI" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Can be measured for a source by calculating the coefficient of variation (CV) for a specific attribute over a defined time window, indicating how much the data fluctuates relative to its average value: Where: σχ is the standard deviation of the attribute values over the time period. μχ is the mean of the attribute values over the time period. A lower CV indicates higher temporal stability."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from ETSI"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Temporal Stability"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#consistency> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "TS_CV = σχ/μχ ×100" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/source-consistency-error>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "ETSI" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "For a single source over N observations can be measured as the Mean Absolute Error (MAE)."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from ETSI"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Source Consistency Error"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#consistency> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "SCE_MAE = 1/N ∑(i=1to N) (X_i - E_i)" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metricType>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Indicates whether a metric is quantitative or qualitative."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://www.w3.org/ns/dqv#Metric> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "metric type"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://emmanuelawe51.github.io/dqkg/MetricType> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/error-rate>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "ETSI" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The proportion of values that are incorrect."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from ETSI"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Error Rate"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#semanticAccuracy> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "Error Rate= (N- N_correct)/N × 100" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/record-completeness>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "ETSI" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The completeness of a specific record R_i (considering a set of K required attributes within that record) is given by the ratio of present values for the required attributes in that record to the total number of required attributes."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from ETSI"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Record Completeness"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#completeness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "C_R_i = (∑(j∈Required_Attributes) I_ij)/K" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/mean-absolute-error>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "ETSI" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The average magnitude of the errors."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from ETSI"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Mean Absolute Error"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#semanticAccuracy> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "MAE= 1/N ∑(i=1to N) | V_data,i - V_true,i |" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metric/record-redundancy-ratio>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> , <http://www.w3.org/ns/dqv#Metric> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "ETSI" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Is the proportion of the dataset that consists of duplicate records."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from ETSI"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Record Redundancy Ratio"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#conciseness> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "RRR= (N- N_unique)/N × 100" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/metricType/quantitative>
+        a       <https://emmanuelawe51.github.io/dqkg/MetricType> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Quantitative"@en .
+
+<https://emmanuelawe51.github.io/dqkg/metric/root-mean-squared-error>
+        a       <http://www.w3.org/ns/dqv#Metric> , <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://purl.org/dc/terms/bibliographicCitation>
+                "ETSI" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The square root of the MSE, in the same units as the original data."@en ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "Extracted from ETSI"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Root Mean Squared Error"@en ;
+        <http://www.w3.org/ns/dqv#inDimension>
+                <http://www.w3.org/2016/05/ldqd#semanticAccuracy> ;
+        <https://emmanuelawe51.github.io/dqkg/formula>
+                "RMSE= sqrt(MSE)" ;
+        <https://emmanuelawe51.github.io/dqkg/metricType>
+                <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> .
+
+<https://emmanuelawe51.github.io/dqkg/>
+        a       <http://www.w3.org/2004/02/skos/core#ConceptScheme> , <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://purl.org/dc/terms/abstract>
+                "Machine-readable inventory of data quality metrics linked to ISO 25012 dimensions and Zaveri categories via W3C Data Quality Vocabulary (DQV)."@en ;
+        <http://purl.org/dc/terms/creator>
+                "Emmanuel Awe" ;
+        <http://purl.org/dc/terms/description>
+                "A knowledge graph of data quality metrics extracted from ISO standards and literature, modelled with W3C DQV and SKOS."@en ;
+        <http://purl.org/dc/terms/title>
+                "Data Quality Metrics Knowledge Graph"@en ;
+        <http://purl.org/vocab/vann/preferredNamespacePrefix>
+                "ex" ;
+        <http://purl.org/vocab/vann/preferredNamespaceUri>
+                <https://emmanuelawe51.github.io/dqkg/> ;
+        <http://www.w3.org/2002/07/owl#imports>
+                <http://www.w3.org/2016/05/ldqd> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "0.1" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Data Quality Metrics Knowledge Graph"@en .

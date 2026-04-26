@@ -1,0 +1,237 @@
+@prefix rr:      <http://www.w3.org/ns/r2rml#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix vocab:   <http://purl.org/vocab/vann/> .
+@prefix dqv:     <http://www.w3.org/ns/dqv#> .
+@prefix ldqd:    <http://www.w3.org/2016/05/ldqd#> .
+@prefix ex:      <https://emmanuelawe51.github.io/dqkg/> .
+
+
+# ════════════════════════════════════════════════════════════════════════
+# 1.  METADATA
+# ════════════════════════════════════════════════════════════════════════
+
+<#Metadata>
+  a rr:TriplesMap ;
+
+  rr:logicalTable [ rr:sqlQuery "SELECT 1" ] ;
+
+  rr:subjectMap [
+    rr:constant <https://emmanuelawe51.github.io/dqkg/> ;
+    rr:class owl:Ontology , skos:ConceptScheme ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate dcterms:title ;
+    rr:objectMap [ rr:constant "Data Quality Metrics Knowledge Graph" ; rr:language "en" ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate skos:prefLabel ;
+    rr:objectMap [ rr:constant "Data Quality Metrics Knowledge Graph" ; rr:language "en" ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate dcterms:description ;
+    rr:objectMap [ rr:constant "A knowledge graph of data quality metrics extracted from ISO standards and literature, modelled with W3C DQV and SKOS." ; rr:language "en" ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate dcterms:abstract ;
+    rr:objectMap [ rr:constant "Machine-readable inventory of data quality metrics linked to ISO 25012 dimensions and Zaveri categories via W3C Data Quality Vocabulary (DQV)." ; rr:language "en" ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate dcterms:creator ;
+    rr:objectMap [ rr:constant "Emmanuel Awe" ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate owl:versionInfo ;
+    rr:objectMap [ rr:constant "0.1" ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate vocab:preferredNamespacePrefix ;
+    rr:objectMap [ rr:constant "ex" ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate vocab:preferredNamespaceUri ;
+    rr:objectMap [ rr:constant <https://emmanuelawe51.github.io/dqkg/> ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate owl:imports ;
+    rr:objectMap [ rr:constant <http://www.w3.org/2016/05/ldqd> ] ;
+  ] ;
+.
+
+
+# ════════════════════════════════════════════════════════════════════════
+# 2.  SCHEMA — declare ex:formula and ex:metricType
+# ════════════════════════════════════════════════════════════════════════
+
+<#SchemaFormula>
+  a rr:TriplesMap ;
+  rr:logicalTable [ rr:sqlQuery "SELECT 1" ] ;
+
+  rr:subjectMap [ rr:constant ex:formula ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate rdf:type ;
+    rr:objectMap [ rr:constant owl:DatatypeProperty ] ;
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [ rr:constant "formula" ; rr:language "en" ] ;
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdfs:comment ;
+    rr:objectMap [ rr:constant "Mathematical expression describing how the metric is computed." ; rr:language "en" ] ;
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdfs:domain ;
+    rr:objectMap [ rr:constant dqv:Metric ] ;
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdfs:range ;
+    rr:objectMap [ rr:constant xsd:string ] ;
+  ] ;
+.
+
+<#SchemaMetricType>
+  a rr:TriplesMap ;
+  rr:logicalTable [ rr:sqlQuery "SELECT 1" ] ;
+
+  rr:subjectMap [ rr:constant ex:metricType ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate rdf:type ;
+    rr:objectMap [ rr:constant owl:ObjectProperty ] ;
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [ rr:constant "metric type" ; rr:language "en" ] ;
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdfs:comment ;
+    rr:objectMap [ rr:constant "Indicates whether a metric is quantitative or qualitative." ; rr:language "en" ] ;
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdfs:domain ;
+    rr:objectMap [ rr:constant dqv:Metric ] ;
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdfs:range ;
+    rr:objectMap [ rr:constant ex:MetricType ] ;
+  ] ;
+.
+
+<#MetricTypeClass>
+  a rr:TriplesMap ;
+  rr:logicalTable [ rr:sqlQuery "SELECT 1" ] ;
+
+  rr:subjectMap [ rr:constant ex:MetricType ; rr:class owl:Class ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [ rr:constant "Metric Type" ; rr:language "en" ] ;
+  ] ;
+.
+
+<#MetricTypeQuantitative>
+  a rr:TriplesMap ;
+  rr:logicalTable [ rr:sqlQuery "SELECT 1" ] ;
+
+  rr:subjectMap [
+    rr:constant <https://emmanuelawe51.github.io/dqkg/metricType/quantitative> ;
+    rr:class ex:MetricType ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate skos:prefLabel ;
+    rr:objectMap [ rr:constant "Quantitative" ; rr:language "en" ] ;
+  ] ;
+.
+
+<#MetricTypeQualitative>
+  a rr:TriplesMap ;
+  rr:logicalTable [ rr:sqlQuery "SELECT 1" ] ;
+
+  rr:subjectMap [
+    rr:constant <https://emmanuelawe51.github.io/dqkg/metricType/qualitative> ;
+    rr:class ex:MetricType ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate skos:prefLabel ;
+    rr:objectMap [ rr:constant "Qualitative" ; rr:language "en" ] ;
+  ] ;
+.
+
+
+# ════════════════════════════════════════════════════════════════════════
+# 3.  METRICS
+# ════════════════════════════════════════════════════════════════════════
+
+<#Metrics>
+  a rr:TriplesMap ;
+
+  rr:logicalTable [ rr:tableName "METRICS" ] ;
+
+  rr:subjectMap [
+    rr:template "https://emmanuelawe51.github.io/dqkg/metric/{METRICID}" ;
+    rr:class dqv:Metric , skos:Concept ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate skos:prefLabel ;
+    rr:objectMap [ rr:column "METRICLABEL" ; rr:language "en" ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate skos:definition ;
+    rr:objectMap [ rr:column "DEFINITION" ; rr:language "en" ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate ex:formula ;
+    rr:objectMap [ rr:column "FORMULA" ; rr:datatype xsd:string ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate dcterms:bibliographicCitation ;
+    rr:objectMap [ rr:column "SOURCE" ; rr:datatype xsd:string ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate skos:note ;
+    rr:objectMap [ rr:template "Extracted from {SOURCE}" ; rr:language "en" ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate dqv:inDimension ;
+    rr:objectMap [
+      rr:template "http://www.w3.org/2016/05/ldqd#{DIMENSION}" ;
+    ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate ex:metricType ;
+    rr:objectMap [
+      rr:template "https://emmanuelawe51.github.io/dqkg/metricType/{METRICTYPE}" ;
+    ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate skos:inScheme ;
+    rr:objectMap [
+      rr:constant <https://emmanuelawe51.github.io/dqkg/> ;
+    ] ;
+  ] ;
+.

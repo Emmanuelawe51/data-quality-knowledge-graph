@@ -1,0 +1,228 @@
+MetricLabel,Definition,Formula,Dimension,Source
+Attribute Completeness,The completeness of a specific attribute Aj​ is given by the ratio of present values for that attribute to the total number of records.,C_Aj = (∑(i=1to N) I_ij)/N,Completeness,ETSI
+Record Completeness,The completeness of a specific record R_i​ (considering a set of K required attributes within that record) is given by the ratio of present values for the required attributes in that record to the total number of required attributes.,C_R_i = (∑(j∈Required_Attributes) I_ij)/K,Completeness,ETSI
+Dataset Completeness ,"The overall completeness of the dataset, considering all N records and M attributes (or a subset of M_req​ required attributes), can be defined as the average attribute completeness or the total proportion of non-missing values.",C_D = (∑(j=1to M_req) ∑(i=1to N)I_ij)/(N × M_req),Completeness,ETSI
+Source Consistency Error,For a single source over N observations can be measured as the Mean Absolute Error (MAE). ,SCE_MAE = 1/N ∑(i=1to N) (|X_i - E_i|),Reliability,ETSI
+Temporal Stability,"Can be measured for a source by calculating the coefficient of variation (CV) for a specific attribute over a defined time window, indicating how much the data fluctuates relative to its average value: 
+Where: 
+    -  σχ is the standard deviation of the attribute values over the time period. 
+    -  μχ is the mean of the attribute values over the time period. A lower CV indicates higher temporal stability.",TS_CV = σχ/μχ ×100,Reliability,ETSI
+Record Redundancy Ratio,Is the proportion of the dataset that consists of duplicate records.,RRR= (N- N_unique)/N × 100,Redundancy,ETSI
+Duplicate Count,Is the absolute number of duplicate records.,DC=N- N_unique,Redundancy,ETSI
+Error Rate,The proportion of values that are incorrect.,Error Rate= (N- N_correct)/N × 100,Accuracy,ETSI
+Accuracy Rate,The proportion of values that are correct.,Accuracy Rate= N_correct/N × 100,Accuracy,ETSI
+Mean Absolute Error,The average magnitude of the errors. ,"MAE= 1/N ∑(i=1to N) | V_data,i - V_true,i |",Accuracy,ETSI
+Mean Squared Error,The average of the squares of the errors (more sensitive to large errors).,"MSE= 1/N ∑(i-1to N) ( V_data,i - V_true,i )^2",Accuracy,ETSI
+Root Mean Squared Error,"The square root of the MSE, in the same units as the original data.",RMSE= sqrt(MSE),Accuracy,ETSI
+"
+Accessibility of the SPARQL endpoint and the server",Checking whether the server responds to a SPARQL query.,,Availability,ZAVERI
+"Accessibility of the RDF
+dumps",Checking whether an RDF dump is provided and can be downloaded.,,Availability,ZAVERI
+Dereferenceability of the URI ,"Checking (i) for dead or broken links i.e. when an HTTP-GET request is sent,
+the status code 404 Not Found is not be returned (ii) that useful data (par-
+ticularly RDF) is returned upon lookup of a URI, (iii) for changes in the URI
+i.e. the compliance with the recommended way of implementing redirections
+using the status code 303 See Other.",,Availability,ZAVERI
+No misreported content types ,"Detect whether the HTTP response contains the header field stating the appro-
+priate content type of the returned file e.g. application/rdf+xml.",,Availability,ZAVERI
+Dereferenced forward-links ,"Dereferenceability of all forward links: all available triples where the local URI
+is mentioned in the subject (i.e. the description of the resource).",,Availability,ZAVERI
+"Machine-readable indication
+of a license","Detection of the indication of a license in the VoID description or in the dataset
+itself.",,Licensing,ZAVERI
+"Human-readable indication of
+a license",Detection of a license in the documentation of the dataset.,,Licensing,ZAVERI
+Specifying the correct license ,"Detection of whether the dataset is attributed under the same license as the
+original.",,Licensing,ZAVERI
+Detection of good quality interlinks,"i) Detection of (a) interlinking degree, (b) clustering coefficient, (c) centrality,
+(d) open sameAs chains and (e) description richness through sameAs by using
+network measures, (ii) via crowdsourcing.",,Interlinking ,ZAVERI
+"Existence of links to external
+data providers","Detection of the existence and usage of external URIs (e.g. using
+owl:sameAs links).",,Interlinking ,ZAVERI
+Dereferenced back-links ,"Detection of all local in-links or back-links: all triples from a dataset that have
+the resource’s URI as the object.",,Interlinking ,ZAVERI
+Usage of digital signatures ,"By signing a document containing an RDF serialization, a SPARQL result set
+or signing an RDF graph.",,Security ,ZAVERI
+Authenticity of the dataset ,"Verifying authenticity of the dataset based on a provenance vocabulary such as
+author and his contributors, the publisher of the data and its sources (if present
+in the dataset).",,Security ,ZAVERI
+Usage of slash-URIs ,Checking for usage of slash-URIs where large amounts of data is provided.,,Performance,ZAVERI
+Low latency ,"(Minimum) delay between submission of a request by the user and reception
+of the response from the system.",,Performance,ZAVERI
+High throughput ,(Maximum) no. of answered HTTP-requests per second.,,Performance,ZAVERI
+Scalability of a data source ,Detection of whether the time to answer an amount of ten requests divided by ten is not longer than the time it takes to answer one request.,,Performance,ZAVERI
+No syntax errors of the documents ,"Detecting syntax errors using (i) validators (ii) via crowd-
+sourcing.",,Syntactic validity,ZAVERI
+Syntactically accurate values ,"By (i) use of explicit definition of the allowed values for a data-
+type [18], (ii) syntactic rules, (iii) detecting whether the data con-
+forms to the specific RDF pattern and that the “types” are defined
+for specific resources, (iv) use of different outlier techniques and
+clustering for detecting wrong values.",,Syntactic validity,ZAVERI
+No malformed datatype literals ,"Detection of ill-typed literals, which do not abide by the lexical syntax
+for their respective datatype that can occur if a value is (i) malformed,
+(ii) is a member of an incompatible datatype.",,Syntactic validity,ZAVERI
+No outliers,"By (i) using distance-based, deviation-based and distribution-based
+methods, (ii) using the statistical distributions of a certain type
+to assess the statement’s correctness ",,Semantic accuracy,ZAVERI
+No inaccurate values,"By (i) using functional dependencies between the values of two or
+more different properties, (ii) comparison between two literal
+values of a resource, (iii) via crowdsourcing.",,Semantic accuracy,ZAVERI
+"No inaccurate annotations, labellings or classifications",(1-(inaccurate instances / total no. of instances) ∗ (balanced distance metric / total no. of instance).,,Semantic accuracy,ZAVERI
+No misuse of properties ,"By using profiling statistics, which support the detection of discordant
+values or misused properties and facilitate to find valid formats for
+specific properties.",,Semantic accuracy,ZAVERI
+Detection of valid rules ,"Ratio of the number of semantically valid rules to the number of non-
+trivial rules.",,Semantic accuracy,ZAVERI
+"No use of entities as members of
+disjoint classes",(no. of entities described as members of disjoint classes / total no. of entities described in the dataset).,,Consistency,ZAVERI
+No misplaced classes or properties ,"Using entailment rules that indicate the position of a term in a
+triple.",,Consistency,ZAVERI
+No misuse of owl:DatatypeProperty or owl:ObjectProperty,"Dtection of misuse of owl:DatatypeProperty or owl:
+ObjectProperty through the ontology maintainer.",,Consistency,ZAVERI
+Members of owl:DeprecatedClass or owl:DeprecatedProperty not used,"Detection of use of members of owl:DeprecatedClass or owl:
+DeprecatedProperty through the ontology maintainer or by
+specifying manual mappings from deprecated terms to compatible
+terms.",,Consistency,ZAVERI
+"Valid usage of inverse-functional
+properties","(i) By checking the uniqueness and validity of the inverse-functional
+values, (ii) by defining a SPARQL query as a constraint.",,Consistency,ZAVERI
+Absence of ontology hijacking ,"Detection of the re-definition by third parties of external classes/
+properties such that reasoning over data using those external terms is
+not affected.",,Consistency,ZAVERI
+No negative dependencies/correlation among properties,Using association rules.,,Consistency,ZAVERI
+No inconsistencies in spatial data ,Through semantic and geometric constraints.,,Consistency,ZAVERI
+Correct domain and range definition,"The attribution of a resource’s property (with a certain value) is only
+valid if the resource (domain), value (range) or literal value (rdfs
+ranged) is of a certain type – detected by use of SPARQL queries as
+a constraint.",,Consistency,ZAVERI
+No inconsistent values ,"Detection by the generation of a particular set of schema axioms for
+all properties in a dataset and the manual verification of these ax-ioms.",,Consistency,ZAVERI
+High intensional conciseness,(no. of unique properties/classes of a dataset / total no. of properties/classes in a target schema).,,Conciseness,ZAVERI
+high extensional conciseness,"(i) (no. of unique objects of a dataset / total number of objects representations in the dataset),
+(ii) 1− (total no. of instances that violate the uniqueness rule / total no. of relevant instances).",,Conciseness,ZAVERI
+Usage of unambiguous annotations/labels,(1− (no. of ambiguous instances / no. of instances contained in the semantic metadata set).,,Conciseness,ZAVERI
+Schema completeness,(no. of classes and properties represented / total no. of classes and properties).,,Completeness,ZAVERI
+Property completeness,"(i) (no. of values represented for a specific property / total no. of values for a specific property) (ii) exploiting
+statistical distributions of properties and types to characterize the property and then detect completeness.",,Completeness,ZAVERI
+Population completeness,(no. of real-world objects are represented / total no. of real-world objects).,,Completeness,ZAVERI
+Interlinking completeness ,"(i) (no. of instances in the dataset that are interlinked / total no. of instances in a dataset) (ii) calculating
+percentage of mappable types in a datasets that have not yet been con-sidered in the linksets when assuming an alignment among types",,Completeness,ZAVERI
+Relevant terms within metainformation attributes,"Obtaining relevant data by (i) ranking (a numerical value similar to
+PageRank), which determines the centrality of RDF documents and
+statements [10], (ii) via crowdsourcing.",,Relevancy,ZAVERI
+Coverage ,"Measuring the coverage (i.e. number of entities described in a dataset)
+and level of detail (i.e. number of properties) in a dataset to ensure that
+the data retrieved is appropriate for the task at hand.",,Relevancy,ZAVERI
+Trustworthiness of statements ,"Computing statement trust values based on: (i) provenance informa-
+tion which can be either unknown or a value in the interval [−1,1]
+where 1: absolute belief,−1: absolute disbelief and 0: lack of belief/
+disbelief (ii) opinion-based method, which use trust annotations
+made by several individuals (iii) provenance information and
+trust annotations in Semantic Web-based social-networks (iv) anno-
+tating triples with provenance data and usage of provenance history to
+evaluate the trustworthiness of facts.",,Trustworthiness,ZAVERI
+Trustworthiness through reasoning,"Using annotations for data to encode two facets of information:
+(i) blacklists (indicates that the referent data is known to be harmful)
+(ii) authority (a boolean value which uses the Linked Data principles to
+conservatively determine whether or not information can be trusted)",,Trustworthiness,ZAVERI
+"Trustworthiness of statements,
+datasets and rules","Using trust ontologies that assigns trust values that can be transferred
+from known to unknown data using: (i) content-based methods (from
+content or rules) and (ii) metadata-based methods (based on reputation
+assignments, user ratings, and provenance, rather than the content it-
+self).",,Trustworthiness,ZAVERI
+Trustworthiness of a resource ,"Computing trust values between two entities through a path by using: (i) a
+propagation algorithm based on statistical techniques (ii) in case there
+are several paths, trust values from all paths are aggregated based on a
+weighting mechanism.",,Trustworthiness,ZAVERI
+Trustworthiness of the information provider,"Computing trustworthiness of the information provider by: (i) construc-
+tion of decision networks informed by provenance graphs (ii) check-
+ing whether the provider/contributor is contained in a list of trusted
+providers (iii) indicating the level of trust for the publisher on a scale of 1–9.",,Trustworthiness,ZAVERI
+Trustworthiness of information provided (content trust),"Checking content trust based on associations (e.g. anything having a re-
+lationship to a resource such as author of the dataset) that transfers trust
+from content to resources.",,Trustworthiness,ZAVERI
+Reputation of the dataset ,"Assignment of explicit trust ratings to the dataset by humans or analyzing
+external links or page ranks.",,Trustworthiness,ZAVERI
+"Human-readable labelling of
+classes, properties and entities as well as presence of
+metadata","Detection of human-readable labelling of classes, properties and entities
+as well as indication of metadata (e.g. name, description, website) of a
+dataset.",,Understandability,ZAVERI
+Indication of one or more exemplary URIs,Detect whether the pattern of the URIs is provided.,,Understandability,ZAVERI
+"indication of a regular expression that matches the URIs of
+a dataset",Detect whether a regular expression that matches the URIs is present.,,Understandability,ZAVERI
+"indication of an exemplary
+SPARQL query",Detect whether examples of SPARQL queries are provided.,,Understandability,ZAVERI
+"indication of the vocabularies
+used in the dataset","Checking whether a list of vocabularies used in the dataset is pro-
+vided",,Understandability,ZAVERI
+Provision of message boards and mailing lists,Checking the effectiveness and the efficiency of the usage of the mailing list and/or the message boards.,,Understandability,ZAVERI
+Freshness of datasets based on currnecy and volatility ,"Max {0, 1 (−currency / volatility)}, which gives a value in a continuous scale from 0 to 1, where score of 1 implies that the data is timely and 0 means it is completely outdated thus unacceptable. In the formula, volatility is the length of time the data remains valid and currency is the age of the data when delivered to the user.",,Timeliness,ZAVERI
+Freshness of datasets based on their data source ,"Detecting freshness of datasets based on their data source by measuring the distance between last modiﬁed time of the data source and last modiﬁed time of the dataset.
+",,Timeliness,ZAVERI
+Keeping URIs short ,Detection of long URIs or those that contain query parameter.,,"Representational-
+conciseness",ZAVERI
+No use of prolix RDF features ,"Detection of RDF primitives i.e. RDF reification, RDF containers and
+RDF collections.",,"Representational-
+conciseness",ZAVERI
+Re-use of existing terms ,"Detection of whether existing terms from all relevant vocabularies for
+that particular domain have been reused.",,Interoperability,ZAVERI
+Re-use of existing vocabularies ,Usage of relevant vocabularies for that particular domain.,,Interoperability,ZAVERI
+Use of self-descriptive formats ,"Identifying objects and terms used to define these objects with globally
+unique identifiers.",,Interpretability,ZAVERI
+"Detecting the interpretability of
+data","Detecting the use of appropriate language, symbols, units, datatypes
+and clear definitions.",,Interpretability,ZAVERI
+"Invalid usage of undefined
+classes and properties","Detection of invalid usage of undefined classes and properties (i.e. those
+without any formal definition).",,Interpretability,ZAVERI
+"No misinterpretation of missing
+values",Detecting the use of blank nodes.,,Interpretability,ZAVERI
+Provision of the data in different serialization formats,"Checking whether data is available in different serialization for-
+mats.",,Versatility,ZAVERI
+Provision of the data in various languages,Checking whether data is available in different languages.,,Versatility,ZAVERI
+Compliance cost ,Estimated financial cost to business of not keeping data for compliance/regulation purposes.,,Financial,IEEE
+Fixed record value,A count of records (see data volume metrics) with a fixed value per record can be used.,,Financial,IEEE
+IP value,For intellectual property data assets whose value is directly proportional to its financial value (e.g. licences or patents.,,Financial,IEEE
+Maintenance cost ,"Estimated financial cost to business of maintaining, adapting or curating data.",,Financial,IEEE
+Market price ,"Price that a user will accept for data, sometimes in return for a specific service.",,Financial,IEEE
+Replacement cost ,"Estimated financial cost to create, replace or reproduce this data.",,Financial,IEEE
+Revenue loss,"Estimated financial cost to business of not having access to data [56, 62] or a service based on observations in the data.",,Financial,IEEE
+Rival access loss ,Estimated financial cost to business of competitors having access to data.,,Financial,IEEE
+Storage cost ,Estimated financial cost to business of storing data.,,Financial,IEEE
+Camera resolution,For visual sensors a measure of the potential accuracy of sensor readings from a specific source.,,Content-Uniqueness,IEEE
+Customer lifetime value,"Data records that describe or refer to specific customers, for example business transactions with that customer, may be weighted. Typically used with count of records.",,Content-Uniqueness,IEEE
+Field value ,The financial amount of a transaction recorded in a field of a data record may be used as a weight for the value of that record. Typically used with count of records ,,Content-Uniqueness,IEEE
+Image quality,"An estimate of the quality of an image based on camera type (smartphone type), brightness, contrast, resolution, noise, and exposition.",,Content-Uniqueness,IEEE
+Data information entropy ,A measure of the uniqueness of data in the dataset.,,Content-Uniqueness,IEEE
+Event information measure ,"By classifying the contents of an image or sensor reading to a set of events with known probabilities, can calculate the information measure of the image containing a specific event. Alternatively specify a Fisher Information Matrix (FIM) based metric.",,Content-Uniqueness,IEEE
+KNN Shapley value ,For K-nearest neighbours classifier algorithms Jia et al. provide an efficient Monte Carlo method to calculate the Shapley value of the KNN utility of each data point.,,Content-Uniqueness,IEEE
+Lexical semantic uniqueness ,A measure of the fraction of most unique words in a file compared to the contents of the whole collection.,,Content-Uniqueness,IEEE
+Mutual information ,A qualification of the inferential gain by increasing the size or features of data when comparing two datasets.,,Content-Uniqueness,IEEE
+Scarcity ,The probability that other organisations (particularly competitors and partners) have the same data.,,Content-Uniqueness,IEEE
+Access interval ,A time series measure weighted towards data most recently created.,,Usage,IEEE
+Frequency,An access time series measure based on how often data is read and written to.,,Usage,IEEE
+Number of accesses ,A measure of the degree of usage [22]. Moody et al. suggest this metric.,,Usage,IEEE
+Potential user count ,"An estimate of the number of similar users in the system compared to the ones that have accessed the data, that are hence likely to also access the data",,Usage,IEEE
+Purpose,A measure of the significance of the type of usage.,,Usage,IEEE
+Read write profile ,"Data valuation based on read and write granularity, data distribution, and data association.",,Usage,IEEE
+Recency,"A specialised time-based metric to capture when data was last used, defined by.",,Usage,IEEE
+User count ,"Called the number of visits by Qiu et al., the number of unique users that access the data.",,Usage,IEEE
+User role ,Indicates user role is a measure of the significance of the usage. ,,Usage,IEEE
+Usage over time ,A quantification of value based on the usage of the data over time.,,Usage,IEEE
+Fidelity,Usefulness of sample data for a given inferential task.,,Utility,IEEE
+Goods condition ,"For end of life processing (recycle, parts reuse, product reuse) need estimate of goods condition.",,Utility,IEEE
+Market price ,"Price that a user will accept for data, sometimes in return for a specific service.",,Utility,IEEE
+nKudos ,Number of approvals (“kudos”) given to a message by the community.,,Utility,IEEE
+Personal data differential price ,"A measure that calculates the relative utility of a dataset by comparing the differences between original data of
+a personal nature, and an obfuscated version of the same data.",,Utility,IEEE
+Provider assessment ,An assessment of the value of a data item by the provider of that data.,,Utility,IEEE
+Relevancy ,"The number of business processes that use, or could benefit from this data.",,Utility,IEEE
+Revenue ,Revenue increases or decreases with or without access to the data.,,Utility,IEEE
+Rival access loss ,Estimated financial cost to business of competitors having access to data.,,Utility,IEEE
+Service outcome ,Reduced or improved service outcomes with or without access to the data.,,Utility,IEEE
+Safety distance ,For vehicular sensors a measure of the distance where sensor readings become increasingly important.,,Utility,IEEE
+User assessment ,An assessment of the value of a data item by the user of that data after consuming it.,,Utility,IEEE
+User priority ,Priority given to a data item by a specific user.,,Utility,IEEE
