@@ -1,127 +1,136 @@
-# Automated Extraction and Knowledge Graph Representation of Data Quality Metrics
+# Data Quality Metric Extraction and Knowledge Graph
 
-**Final Year Project — Emmanuel Awe**
+Final Year Project by Emmanuel Awe.
 
-Extracts data quality (DQ) metrics from heterogeneous documents (PDF/DOCX), maps them to the W3C Data Quality Vocabulary (DQV), serialises as RDF/Turtle, and evaluates extraction quality against a manually constructed gold standard.
+This project extracts data quality metrics from PDF and DOCX documents, stores
+them in a consistent CSV schema, and maps them to RDF using the W3C Data Quality
+Vocabulary (DQV), SKOS, and Dublin Core Terms.
 
----
+The pipeline combines document-specific rules, table parsing, regular
+expressions, and spaCy-based sentence processing. It was evaluated against a
+manually constructed gold standard containing 123 metric records. The complete
+methodology and results are available in the
+[project report](docs/Emmanuel_Awe_Final_Year_Project_Report.pdf).
 
-## Project Structure
+## Pipeline
 
-```
-Final Year Project/
-├── src/
-│   ├── extractor.py        # Main extraction pipeline (rules, tables, spaCy fallback)
-│   └── ingest.py           # Document ingestion (PDF via PyMuPDF, DOCX via python-docx)
-├── data/
-│   ├── Inputs/             # Source documents (PDF/DOCX)
-│   ├── Outputs/            # Extracted CSVs per source
-│   └── GoldStandard/       # Gold Standard.csv (123 records)
-├── output/                 # Generated RDF Turtle files (.ttl)
-├── mappings/               # R2RML mapping file
-├── Evaluation/
-│   ├── match_analysis.py   # Similarity scoring tool - outputs match_analysis.csv
-│   └── match_analysis.csv  # Row-by-row comparison of extracted vs gold standard
-├── Tools/
-│   └── r2rml-master/       # R2RML-F processor (fat jar pre-built)
-├── tests/
-│   └── test_extractor.py
-├── config.properties       # R2RML configuration
-└── requirements.txt
+```text
+PDF or DOCX
+    -> document ingestion (PyMuPDF / python-docx)
+    -> metric extraction (rules, tables, regex, spaCy fallback)
+    -> structured CSV
+    -> R2RML-F mapping
+    -> RDF/Turtle knowledge graph
 ```
 
----
+Each extracted metric can include a label, definition, formula, provenance
+source, quality dimension, and quantitative or qualitative type.
 
-## Setup
+## Repository structure
 
-**Prerequisites:** Python 3.9+, Java 11+ (for R2RML)
+```text
+src/                     Python ingestion and extraction pipeline
+data/Inputs/             Redistributable input and source-document guide
+data/Outputs/            Extracted metric CSV files
+data/GoldStandard/       Manually constructed evaluation gold standard
+data/LLM results/        Comparison outputs used during the evaluation
+mappings/                R2RML and DQV taxonomy mappings
+output/                  Generated RDF/Turtle files
+Evaluation/              Match-analysis script and comparison table
+tests/                   Python extraction tests
+Tools/r2rml-master/      Vendored MIT-licensed R2RML-F processor
+docs/                    Redacted final project report
+```
 
-The R2RML processor is included in `Tools/r2rml-master/` and the fat jar is pre-built at `Tools/r2rml-master/target/r2rml-fat.jar` — no build step required.
+## Requirements
+
+- Python 3.9 or newer
+- Java 17 or newer
+- Apache Maven
+
+Create a Python environment and install the project dependencies:
 
 ```bash
-# Create and activate virtual environment
 python3 -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-
-# Install dependencies
+source .venv/bin/activate
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
----
+On Windows, activate the environment with `.venv\Scripts\activate`.
 
-## Running the Pipeline
+## Build R2RML-F once
 
-### 1 — Extract metrics from a source document
+R2RML-F is included as attributed, vendored third-party source. Its generated
+`target/` directory is intentionally excluded from Git.
+
+```bash
+cd Tools/r2rml-master
+mvn clean package
+cd ../..
+```
+
+The build runs the upstream test suite and creates
+`Tools/r2rml-master/target/r2rml-fat.jar`.
+
+## Run the pipeline
+
+The included CC BY 4.0 paper can be used as a reproducible example:
 
 ```bash
 python3 src/extractor.py \
-  --input  "data/Inputs/<filename>.pdf" \
-  --source "<SourceLabel>" \
-  --output "data/Outputs/<SourceLabel>_metrics.csv"   # optional; auto-named if omitted
+  --input "data/Inputs/A_Systematic_Survey_of_Data_Value_Models_Metrics_A.pdf" \
+  --source "IEEE" \
+  --output "data/Outputs/metrics.csv"
 ```
 
-The extractor selects the appropriate strategy automatically (table-based for ETSI/IEEE/survey sources, sentence-based for Zaveri-style prose). It writes:
-- `data/Outputs/<source>_metrics.csv` — extracted metrics
-- `metrics.csv` — copy used by R2RML
-- `config.properties` — updated with correct CSV/TTL filenames
-
-### 2 — Generate RDF Turtle via R2RML
+The extractor writes the CSV and updates `config.properties` for the selected
+source. Generate the RDF/Turtle representation with:
 
 ```bash
 java -jar "Tools/r2rml-master/target/r2rml-fat.jar" config.properties
 ```
 
-Output is written to `output/<source>_output.ttl`.
-
-### Example (Zaveri survey)
-
-```bash
-python3 src/extractor.py \
-  --input  "data/Inputs/zaveri-et-al-2015-quality-assessment-for-linked-data-a-survey.pdf" \
-  --source "Zaveri"
-
-java -jar "Tools/r2rml-master/target/r2rml-fat.jar" config.properties
-```
-
----
-
-## Evaluated Sources
-
-| Source | Document type | Metrics extracted |
-|--------|--------------|-------------------|
-| ETSI   | DOCX standard | 12 |
-| Zaveri | PDF survey    | 69 |
-| IEEE   | PDF standard  | 38 |
-
----
+The generated file is written to the `output/` path recorded in
+`config.properties`.
 
 ## Evaluation
 
-`match_analysis.py` computes label and definition similarity scores between each extracted metric and its closest gold standard match. The output (`match_analysis.csv`) was used as the basis for manual classification and evaluation.
+The evaluation compared extracted metrics with the 123-record gold standard.
+Match classification and review were performed manually by the author.
+`Evaluation/match_analysis.py` supports that review by producing a row-by-row
+comparison containing label and definition similarity scores plus dimension
+and formula agreement.
 
 ```bash
 python3 Evaluation/match_analysis.py
 ```
 
----
+The evaluated extraction outputs contain 12 ETSI metrics, 69 Zaveri metrics,
+38 IEEE/data-value survey metrics, and metrics from the Radulovic quality
+model. See the project report for the methodology, results, and limitations.
 
 ## Tests
+
+Run the Python tests from the repository root:
 
 ```bash
 python3 -m pytest tests/ -v
 ```
 
----
+Build and test the vendored R2RML-F processor separately:
 
-## Dependencies
+```bash
+cd Tools/r2rml-master
+mvn clean package
+```
 
-| Package | Purpose |
-|---------|---------|
-| `PyMuPDF` | PDF text extraction |
-| `python-docx` | DOCX ingestion |
-| `spaCy` (en_core_web_sm) | Sentence segmentation / dependency parsing |
-| `lxml` | OMML formula parsing (DOCX) |
-| `pytest` | Test suite |
+## Public repository notes
 
-R2RML-F (Java) is used for CSV-to-RDF mapping and is located in `Tools/r2rml-master/`.
+This is the public portfolio edition of the submitted UCD Final Year Project.
+The core implementation, mappings, derived evaluation data, and generated RDF
+outputs are retained. Personal identifiers, non-redistributable source
+documents, generated caches, and an unused Oracle JDBC binary are excluded.
+
+Third-party attribution and licensing information is recorded in
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
