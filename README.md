@@ -12,6 +12,11 @@ manually constructed gold standard containing 123 metric records. The complete
 methodology and results are available in the
 [project report](docs/Emmanuel_Awe_Final_Year_Project_Report.pdf).
 
+## Demo
+
+A demonstration of the complete extraction and RDF knowledge graph generation
+workflow is available in the [v1.0 GitHub Release](../../releases/tag/v1.0).
+
 ## Pipeline
 
 ```text
